@@ -29,6 +29,7 @@
 #include <locale.h>
 
 int main() {
+
     setlocale(LC_ALL, "RUS");
     char str[256];
     int max_len = 0, cur_len = 0;
